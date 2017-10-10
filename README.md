@@ -1,15 +1,14 @@
 # PSStackExchange
-Following RamblingCookieMonster's tutorial
 
 [![Build status](https://ci.appveyor.com/api/projects/status/9b7du8du2lyw4oky/branch/master?svg=true)](https://ci.appveyor.com/project/fschumann1211/psstackexchange/branch/master)
-PSStackExchange
-=============
+
+Following RamblingCookieMonster's tutorial
 
 This is a rudimentary PowerShell module for querying the [Stack Exchange API](https://api.stackexchange.com/docs), written to illustrate [a basic PowerShell module organization and workflow](http://ramblingcookiemonster.github.io/Building-A-PowerShell-Module).
 
 This is not fully featured or tested, but pull requests would be welcome!
 
-#Instructions
+## Instructions
 
 ```powershell
 # One time setup
@@ -31,7 +30,7 @@ This is not fully featured or tested, but pull requests would be welcome!
     Get-Help about_PSStackExchange
 ```
 
-#Examples
+## Examples
 
 ### Find Stack Exchange Sites and Urls
 
@@ -61,5 +60,3 @@ This is not fully featured or tested, but pull requests would be welcome!
 ```
 
 ![Search Questions](/Media/Search-SEQuestion.png)
-
-
