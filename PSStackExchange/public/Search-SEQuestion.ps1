@@ -102,9 +102,9 @@
         #    Tagged PowerShell
 
     .EXAMPLE
-        Search-SEQuestion -User 105072 ` 
-                          -Site ServerFault ` 
-                          -ExcludeTag 'windows-server-2008-r2' ` 
+        Search-SEQuestion -User 105072 `
+                          -Site ServerFault `
+                          -ExcludeTag 'windows-server-2008-r2' `
                           -Title PowerShell
 
         # Search for questions from ServerFault User with ID 105072
