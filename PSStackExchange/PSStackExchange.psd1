@@ -12,7 +12,7 @@
 RootModule = 'PSStackExchange.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.9'
+ModuleVersion = '1.0.13'
 
 # ID used to uniquely identify this module
 GUID = 'cc0d74a5-8a08-4708-a315-bc4bab537839'
