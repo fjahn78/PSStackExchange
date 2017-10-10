@@ -1,5 +1,6 @@
 # See http://www.appveyor.com/docs/appveyor-yml for many more options
 
+
 # Allow WMF5 (i.e. PowerShellGallery functionality)
 os: Unstable
 
@@ -11,7 +12,7 @@ skip_commits:
 install:
   - cinst pester -y
 
-build: false
+build: true
 
 test_script:
 # Test with native PS version
